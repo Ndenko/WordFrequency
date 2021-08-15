@@ -8,7 +8,7 @@ The frequency class contains a private Node class that has been implemented for 
 There are only four public methods in the frequency class: insert, getCount, getWords and iterator. The rest are private methods and therefore we cannot test them directly. However, we strongly suggest you implement them to reduce code duplication and make your implementation clearer.
 
 # Objectives
-This project will allows practice of linked list insert, remove, and test development.
+This project allows practice of linked list insert, remove, and test development.
 
 # Word Insertion
 The public insert method of the frequency class will be used to insert a word into the linked list. When a new word is inserted, it adds the word into the list. If the word exists in the list, we simply increment the value of "count" for the word. We want to keep the words in the linked list by their frequency order (in descending order of their count). Therefore, when the frequency of a word has changed, we have to move the word to the correct position in the linked list. If two words have the same frequency, they are sorted alphabetically. For example, if we insert three words Alice, Bob and Cathy, we will have:
